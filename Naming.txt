@@ -1,0 +1,86 @@
+﻿AccessText				– at
+Border					– brd
+BulletDecorator			– bd
+Butto1					– btn
+Calendar				– cal
+Canvas					– cnv
+CheckBox				– chk
+ComboBox				– cbo
+ContextMenu				– ctx
+DataGrid				– dg
+DatePicker				– dat
+DockPanel				– dp
+Expander				– exp
+Frame					– fr
+Grid					– grd
+GridSplitter			– gsp
+GroupBox				– grp
+Hyperlink				– hyp
+Image					– img
+InkCanvas				– ikc
+InkPresenter			– ikp
+Label					– lbl
+ListBox					– lb
+ListView				– lv
+MediaElement			– me
+Menu					– mnu
+NavigationWindow		– nw
+Page					– pg
+Panel					– pnl
+PasswordBox				– pwd
+Popup					– pop
+ProgressBar				– pb
+RadioButton				– rdo
+ResizeGrip				– rgr
+RepeatButton			– rpt
+RichTextBox				– rtb
+ScrollBar				– sb
+ScrollViewer			– sv
+Separator				– sep
+Slider					– sli
+StackPanel				– sp
+StatusBar				– stb
+TabControl				– tab
+TabItem					– tbi
+TextBlock				– tb
+TextBox					– txt
+Thumb					– th
+ToolBar					– tbr
+ToolTip					– tt
+TreeView				– tv
+Viewbox					– vb
+VirtualizingStackPanel	– vsp
+Window					– win
+WrapPanel				– wp
+
+RoundedButton			- rob
+RoundedButtonRepeat		- rbr
+ToggleButton			- tgb
+ColorPicker				- cp
+DirectoryDialog			- dd
+FileDialog				- fd
+FileDialogSave			- fds
+NumberBox				- nb
+
+ Code-Strukturierung:
+        1.  Use camelCasing for local variables, arguments, methodenames
+        2.  Use normal variable names without any type characters
+            Example:
+                string strName;      <-- Do not do this
+                string name;         <-- Do this
+        3.  Use normal letters for const and readonly variables
+            Example:
+                string readonly TEST; <-- Do not this
+                string readonly Test; <-- Do this
+        4. Dont use short names like = Id, Xml, Uri, etc.
+           Write them out!
+        5. Dont use underscores for variables
+        6. Use defined types like string, int, bool
+           Dont use Boolean, Int32, String Class as Variables
+        7. Use for local Variables var and dont use predefined Types
+        8. Use for class names noun or noun phrases
+        9. Interfaces names start with the letter I and they names are nouns or adjectives.
+        10. Organize namespaces with a clearly defined structure
+        11. Do declare all variables at the top and static as first
+        12. Use normale names for Enums
+        13. Don't use Enum Suffix
